@@ -1,0 +1,27 @@
+{
+  "name": "clever-car-gps-server",
+  "version": "1.0.0",
+  "description": "GPS data server for DIY smart car",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalfacesec/clever-car-gps-server.git"
+  },
+  "author": "Sean Moriarty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalfacesec/clever-car-gps-server/issues"
+  },
+  "homepage": "https://github.com/metalfacesec/clever-car-gps-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "gps": "^0.5.3",
+    "serialport": "^8.0.7",
+    "socket.io": "^2.3.0"
+  }
+}
